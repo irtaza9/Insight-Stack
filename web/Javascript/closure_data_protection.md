@@ -23,8 +23,9 @@ const userData = () => {
 const getUser = userData();
 
 const user = getUser();
+```
 
 ## References
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures <br>
 https://www.geeksforgeeks.org/closure-in-javascript/
