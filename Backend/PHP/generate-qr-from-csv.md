@@ -135,3 +135,6 @@ This Markdown file serves as documentation for the PHP script, providing an over
 ## Usage
     $csvFilePath = 'wp_postmeta.csv';
     $generated_qr_paths = processCSVAndGenerateQR($csvFilePath);
+
+## IMP
+	chmod 777 /Applications/XAMPP/xamppfiles/htdocs/qr-generate/QR
