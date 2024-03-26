@@ -13,4 +13,4 @@ _1/0 TILs and counting..._
 
 ---
 ### PHP
-- [CSV TO QR in JavaScript](Backend/PHP/generate-qr-from-csv.md)
+- [CSV TO QR in Php](Backend/PHP/generate-qr-from-csv.md)
