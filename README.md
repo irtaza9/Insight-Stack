@@ -9,3 +9,8 @@ _1/0 TILs and counting..._
 ### JavaScript
 - [Closure Data Protection in JavaScript](web/Javascript/closure_data_protection.md)
 - [Parameters vs. Arguments in JavaScript](web/Javascript/parameters_vs._arguments.md)
+
+
+---
+### PHP
+- [CSV TO QR in JavaScript](Backend/PHP/generate-qr-from-csv.md)
