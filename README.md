@@ -18,3 +18,4 @@ _1/0 TILs and counting..._
 ### iOS/Swift
 - [QR Data Formatting](iOS/Swift/QR_Data_Formatting.md)
 - [UIColorHexExtension](iOS/Swift/UIColorHexExtension.md)
+- [ErrorManager_ErrorView.md](iOS/Swift/ErrorManager_ErrorView.md)
