@@ -19,6 +19,8 @@ const { REFRESH_TOKEN_SECRET } = require('./config.js');
 
 const server = express();
 
+server.use(express.static('public'))
+
 server.use(cookieParser());
 
 server.use(cors())
@@ -29,10 +31,6 @@ server.use(express.urlencoded({extended:true}));
 
 server.listen(3000, ()=> {
   console.log('server listening on port 3000');
-});
-
-server.get("/", async(req, res) => {
-  res.send("Hello");
 });
 
 server.post('/register', async(req, res) => {
