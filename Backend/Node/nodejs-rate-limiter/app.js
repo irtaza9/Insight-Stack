@@ -3,7 +3,6 @@ const rateLimitMiddleware = require("./middlewares/ratelimit");
 const app = express();
 var cors = require('cors')
 
-app.use(exp.static(path.join(__dirname, 'public')));
 app.use(cors())
 app.use(rateLimitMiddleware);
 

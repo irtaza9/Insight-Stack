@@ -19,8 +19,6 @@ const { REFRESH_TOKEN_SECRET } = require('./config.js');
 
 const server = express();
 
-server.use(exp.static(path.join(__dirname, 'public')));
-
 server.use(cookieParser());
 
 server.use(cors())
