@@ -31,6 +31,12 @@ server.listen(3000, ()=> {
   console.log('server listening on port 3000');
 });
 
+server.get('/', (req, res)=>{
+  res.send({
+    message: "Hello World!"
+  })
+})
+
 server.post('/register', async(req, res) => {
   const {email, password} = req.body;
   try {

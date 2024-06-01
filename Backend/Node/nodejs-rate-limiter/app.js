@@ -6,6 +6,13 @@ var cors = require('cors')
 app.use(cors())
 app.use(rateLimitMiddleware);
 
+
+app.get('/', (req, res)=>{
+  res.send({
+    message: "Hello World!"
+  })
+})
+
 app.get("/api/blog", (req, res) => {
   res.send({
     success: true,
