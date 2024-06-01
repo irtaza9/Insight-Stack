@@ -1,7 +1,9 @@
 const express = require("express");
 const rateLimitMiddleware = require("./middlewares/ratelimit");
 const app = express();
+var cors = require('cors')
 
+app.use(cors())
 app.use(rateLimitMiddleware);
 
 app.get("/api/blog", (req, res) => {
